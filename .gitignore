@@ -1,0 +1,106 @@
+﻿# =============================================================================
+# RailInsight — .gitignore
+# Python | Jupyter | Data Science | Windows
+# =============================================================================
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+.venv_old/
+venv/
+env/
+ENV/
+.env/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Jupyter Notebooks ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Data Files ────────────────────────────────────────────────────────────────
+data/raw/
+data/processed/
+data/external/
+data/interim/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.sqlite3
+*.json.gz
+*.zip
+*.tar.gz
+*.7z
+
+# ── Reports & Exports ────────────────────────────────────────────────────────
+report/*.pdf
+report/*.html
+report/*.png
+report/*.jpg
+report/*.jpeg
+
+# ── SQL ───────────────────────────────────────────────────────────────────────
+*.dump
+*.bak
+
+# ── Logs & Temporary Files ────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ── Environment Variables / Secrets ──────────────────────────────────────────
+.env
+.env.*
+!.env.example
+secrets.yaml
+secrets.yml
+config/secrets.*
+
+# ── IDE & Editor ─────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+.spyderproject.cfg
+.spyproject/
+.jupyter/
+
+# ── OS Artifacts ─────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Testing & Linting Cache ───────────────────────────────────────────────────
+*.coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
