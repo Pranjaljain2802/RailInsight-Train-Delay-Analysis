@@ -53,11 +53,12 @@ data/interim/
 *.7z
 
 # ── Reports & Exports ────────────────────────────────────────────────────────
-report/*.pdf
-report/*.html
-report/*.png
-report/*.jpg
-report/*.jpeg
+report/**/*.pdf
+report/**/*.html
+report/**/*.png
+report/**/*.jpg
+report/**/*.jpeg
+build_eda_nb.py
 
 # ── SQL ───────────────────────────────────────────────────────────────────────
 *.dump
